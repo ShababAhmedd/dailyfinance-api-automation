@@ -133,3 +133,20 @@ All test cases are written in a structured **Google Sheet** using standard test 
 **Test Case Document:** 
 
 [View Test Case Sheet](https://docs.google.com/spreadsheets/d/1QmMW_1omvrQZER3pNb7dMpgAvi2Csr9dtKQpYcA3zvM/edit?usp=sharing)
+
+## Report
+
+### Allure Report
+
+All test cases generate visual test reports using **Allure**.
+
+**Allure Report Overview:**
+
+![Allure Report](images/allure_overview.png)
+
+**Allure Behaviour:**
+
+![Allure Behaviour](images/allure_behaviour)
+
+### Gradle
+~[Gradle](images/gradle)
