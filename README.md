@@ -10,3 +10,23 @@ This project automates the testing of the [DailyFinance](https://dailyfinance.ro
 
 It covers essential user and item-related endpoints including registration, login, item management, and admin operations.
 
+##  Project Structure
+
+```
+dailyfinance-api-automation/
+├── build.gradle
+├── settings.gradle
+├── gradlew
+├── gradlew.bat
+├── .gitignore
+├── images/                   # Allure report screenshots
+├── src/
+   └── test/
+       ├── java/
+       │   ├── config/       # Setup, Models (UserModel, ItemModel)
+       │   ├── controller/   # API Controller methods
+       │   ├── testrunner/   # TestNG Runner (UserTestRunner)
+       │   └── utils/        # Env var and random data utilities
+       └── resources/
+           └── suite.xml     # TestNG Suite configuration
+```
