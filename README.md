@@ -112,3 +112,16 @@ The test results will be stored in:
 build/allure-results/
 ```
 
+## Generate and View Allure Report
+
+To generate and launch the Allure report in your browser, run:
+
+```bash
+allure serve build/allure-results
+```
+
+If the browser doesn't open automatically, you can alternatively run:
+```bash
+allure generate build/allure-results --clean -o build/allure-report
+xdg-open build/allure-report/index.html
+```
