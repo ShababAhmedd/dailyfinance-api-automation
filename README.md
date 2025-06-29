@@ -97,7 +97,7 @@ sudo apt-get install allure
 To execute all test cases, run the following command:
 
 ```bash
-.gradlew clean test
+gradle clean test
 ```
 
 This command will run all test methods defined in the TestNG suite file:
