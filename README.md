@@ -126,7 +126,7 @@ allure generate build/allure-results --clean -o build/allure-report
 xdg-open build/allure-report/index.html
 ```
 
-## 🧪 Test Case Documentation
+## Test Case Documentation
 
 All test cases are written in a structured **Google Sheet** using standard test case format.
 
