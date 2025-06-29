@@ -39,3 +39,17 @@ dailyfinance-api-automation/
 │           └── suite.xml              # TestNG suite file
 
 ```
+
+
+##  Tech Stack
+
+| Tool / Framework | Purpose |
+|------------------|---------|
+| **Java 11+**     | Programming language |
+| **Gradle**       | Build tool and dependency management |
+| **Rest Assured** | HTTP client for API automation |
+| **TestNG**       | Test runner and assertions |
+| **Allure**       | Test reporting and visualization |
+| **Faker**        | Generating random fake user data |
+| **Jackson**      | Object-to-JSON serialization |
+| **Lombok**       | (Optional) Boilerplate code reduction |
