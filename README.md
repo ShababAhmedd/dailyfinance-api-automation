@@ -54,7 +54,7 @@ dailyfinance-api-automation/
 | **Jackson**      | Object-to-JSON serialization |
 | **Lombok**       | (Optional) Boilerplate code reduction |
 
-## ✅ Features Covered
+## Features Covered
 
 The following API functionalities are tested end-to-end using data-driven and dynamic validation:
 
