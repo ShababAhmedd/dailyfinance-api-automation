@@ -53,3 +53,28 @@ dailyfinance-api-automation/
 | **Faker**        | Generating random fake user data |
 | **Jackson**      | Object-to-JSON serialization |
 | **Lombok**       | (Optional) Boilerplate code reduction |
+
+## ✅ Features Covered
+
+The following API functionalities are tested end-to-end using data-driven and dynamic validation:
+
+### User Module
+
+- Register a new user
+- Login with valid credentials
+- Search user by ID (admin only)
+- Edit user information (admin only)
+- Get full user list (admin only)
+
+### Item Module
+
+- Add a new item
+- Get list of all items (user-specific)
+- Edit an item (e.g. change name)
+- Delete an existing item
+
+### Admin Access
+
+- Admin login for secure actions (user management)
+- Token-based authentication for protected routes
+
