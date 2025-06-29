@@ -19,14 +19,23 @@ dailyfinance-api-automation/
 ├── gradlew
 ├── gradlew.bat
 ├── .gitignore
-├── images/                   # Allure report screenshots
+├── README.md
+├── images/                        # Contains Allure report screenshots
 ├── src/
-   └── test/
-       ├── java/
-       │   ├── config/       # Setup, Models (UserModel, ItemModel)
-       │   ├── controller/   # API Controller methods
-       │   ├── testrunner/   # TestNG Runner (UserTestRunner)
-       │   └── utils/        # Env var and random data utilities
-       └── resources/
-           └── suite.xml     # TestNG Suite configuration
+│   └── test/
+│       ├── java/
+│       │   ├── config/
+│       │   │   ├── ItemModel.java     # POJO for item API payload
+│       │   │   ├── Setup.java         # Loads config.properties
+│       │   │   └── UserModel.java     # POJO for user API payload
+│       │   ├── controller/
+│       │   │   └── UserController.java # All API actions (register, login, etc.)
+│       │   ├── testrunner/
+│       │   │   └── UserTestRunner.java # All test cases with TestNG
+│       │   └── utils/
+│       │       └── Utils.java          # Random number generator, setEnvVar
+│       └── resources/
+│           ├── config.properties       # Stores tokens, IDs, and credentials
+│           └── suite.xml              # TestNG suite file
+
 ```
