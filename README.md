@@ -78,9 +78,9 @@ The following API functionalities are tested end-to-end using data-driven and dy
 - Admin login for secure actions (user management)
 - Token-based authentication for protected routes
 
-  ## 🚀 How to Run the Tests
+  ## How to Run the Tests
 
-### ▶️ Pre-requisites
+### Pre-requisites
 
 - Java 11 or higher
 - Gradle installed (or use the included `gradlew` script)
