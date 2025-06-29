@@ -1,4 +1,4 @@
-# 💼 dailyfinance-api-automation
+# dailyfinance-api-automation
 
 This project automates the testing of the [DailyFinance](https://dailyfinance.roadtocareer.net/) web application APIs using:
 
