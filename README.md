@@ -146,7 +146,7 @@ All test cases generate visual test reports using **Allure**.
 
 **Allure Behaviour:**
 
-![Allure Behaviour](images/allure_behaviour)
+![Allure Behaviour](images/allure_behaviour.png)
 
 ### Gradle
-~[Gradle](images/gradle)
+~[Gradle](images/gradle.png)
