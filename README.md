@@ -126,6 +126,13 @@ allure generate build/allure-results --clean -o build/allure-report
 xdg-open build/allure-report/index.html
 ```
 
+## Postman Collection
+
+The Postman collection used for manual API exploration and testing can be found here:
+
+[View Postman Collection Documentation](https://documenter.getpostman.com/view/40120598/2sB3HgQ3e5)
+
+
 ## Test Case Documentation
 
 All test cases are written in a structured **Google Sheet** using standard test case format.
